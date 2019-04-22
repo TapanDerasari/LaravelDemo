@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title','Posts')
+@section('breadcrumb',Breadcrumbs::render('posts'))
 @section('content')
     <div class="container">
         @can('Create Post')

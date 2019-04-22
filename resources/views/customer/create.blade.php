@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title','create customer')
+@section('breadcrumb',Breadcrumbs::render('create-customers'))
 @section('content')
     <div class="container">
         @if(session()->has('message'))

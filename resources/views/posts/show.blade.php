@@ -1,7 +1,6 @@
 @extends('layouts.app')
-
-@section('title', '| View Post')
-
+@section('title', 'View Post')
+@section('breadcrumb',Breadcrumbs::render('post',$post))
 @section('content')
 
     <div class="container">

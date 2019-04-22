@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title','Customer Details')
+@section('breadcrumb',Breadcrumbs::render('customers'))
 @section('content')
     <div class="container">
         <div class="float-right"><a href="{{route('customer.create')}}">Create Customer</a></div>
